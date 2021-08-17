@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
 const { exec } = require('child_process')
 const { utils: { throttle } } = require('core-async')
