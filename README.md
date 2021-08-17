@@ -1,7 +1,7 @@
 # get-raw-policies
 
-> This utility is used to periodically maintain this list: 
-> It is NOT RECOMMENDED to use this utility to search AWS managed policies. To search AWS managed policies, use __`npx get-policies`__ instead.
+> This utility is used to periodically maintain this list: https://raw.githubusercontent.com/nicolasdao/get-raw-policies/master/managed-policies.json.
+> It is __NOT RECOMMENDED__ to use this utility to search AWS managed policies. To search AWS managed policies, use __`npx get-policies`__ instead.
 
 ```
 npx https://github.com/nicolasdao/get-raw-policies --save ./managed-policies.json
