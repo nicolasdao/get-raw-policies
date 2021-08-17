@@ -1,0 +1,22 @@
+{
+  "name": "get-raw-policies",
+  "version": "0.0.1",
+  "description": "Uses the AWS CLI to pull the latest AWS managed policies",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "CLI",
+    "managed",
+    "policies"
+  ],
+  "author": "Nicolas Dao",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "core-async": "^2.0.4"
+  }
+}
